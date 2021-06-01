@@ -99,11 +99,11 @@ BLAST_primer = function(forward, reverse, ..., organism='',
                  primer_specificity_database=primer_specificity_database,
                  exclude_env=exclude_env,
                  search_specific_primer='on',
-                 HITSIZE=100000,
-                 EVALUE=100000,
-                 WORD_SIZE=6,
-                 NUM_TARGETS_WITH_PRIMERS=5000,
-                 MAX_TARGET_PER_TEMPLATE = 500)
+                 HITSIZE="100000",
+                 EVALUE="100000",
+                 WORD_SIZE="6",
+                 NUM_TARGETS_WITH_PRIMERS="5000",
+                 MAX_TARGET_PER_TEMPLATE = "500")
 
   names(options) = toupper(names(options))
 
